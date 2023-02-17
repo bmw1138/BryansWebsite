@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bryan's Website</title>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&family=Space+Mono&family=Titillium+Web&display=swap"
+    rel="stylesheet">
+
+  <!--CSS Stylesheets-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="Images/favicon.ico">
+
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/20b6391b30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <!--Navbar-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="">My Site</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies">Hobbies</a>
+            </li>
+            <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Title-->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="Images/IMG_9891-modified.png" alt="Bryan's Profile Picture" class="profile">
+        </div>
+
+        <div class="col-lg-6">
+          <h1 class="titlemedia">I'm Bryan</h1>
+          <h2 class="titlemedia">An Instructional Designer</h2>
+        </div>
+      </div>
+
+
+  </section>
+
+  <section class="" id="about">
+
+    <div class="container-fluid middle-container">
+      <h2>About Me</h2>
+      <p class="intro">I am a passionate and dedicated instructional designer/education professional. I created
+        this website as an assignment the Complete 2023 Web Development Bootcamp course on Udemy using Bootstrap and
+        some baisc Javascript. This site also confirms to Web Content Accessibility Guidelines/Section 508.
+
+      </p>
+
+    </div>
+
+
+  </section>
+
+  <section class="colored-section" id="skills">
+    <h2>Skills</h2>
+
+    <div id="carousel-skills" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h3>Microsoft Office Suite</h3>
+          <p>Proficient in Word, Excel, PowerPoint<br>
+            <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+          </p>
+          <img class="images" src="Images/office.png" alt="Microsoft Office Icon">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3>Camtasia</h3>
+          <p>Creating training videos using screen captures, animations, and visual effects<br>
+            <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+          </p>
+          <img class="images" src="Images/video-editing.png" alt="Video Editing Icon">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3>Articulate</h3>
+          <p>Developing engaging web-based training products<br>
+            <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+          </p>
+          <img class="images" src="Images/online-course.png" alt="Online Course Icon">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3>Web Development</h3>
+          <p>Learning and practicing HTML, CSS, and Javascript<br>
+            <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+          </p>
+          <img class="images" src="Images/html-code.png" alt="HTML Code Icon">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3>Accessibility</h3>
+          <p>Using Trusted Tester, ANDI, and other tools to ensure accessibilty<br>
+            <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+          </p>
+          <img class="images" src="Images/accessibility.png" alt="Wheelchair Icon">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-skills" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-skills" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <section class="" id="hobbies">
+    <div class="container-fluid middle-container">
+      <h2>Hobbies</h2>
+      <div class="row">
+        <div class="hobby-column col-lg-4 col-md-6">
+          <a href="hiking.html">
+            <div class="card" style="width: 18rem;">
+              <img src="Images/20190528_181229.jpg" class="card-img-top" alt="Mountain in Alaska">
+              <div class="card-body">
+                <h3>Hiking</h3>
+                <p class="card-text">Pictures of some of the hikes I've taken over the years.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="hobby-column col-lg-4 col-md-6">
+          <a href="pizza.html">
+            <div class="card" style="width: 18rem;">
+              <img src="Images/IMAG0322.jpg" class="card-img-top" alt="Pizza">
+              <div class="card-body">
+                <h3>Pizza Making</h3>
+                <p class="card-text">I enjoy making wood-fired pizza.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="hobby-column col-lg-4 col-md-6">
+          <a href="https://www.goodreads.com/user/show/5947424-bryan-woerner" target="_blank">
+            <div class="card" style="width: 18rem;">
+              <img src="Images/books_1200.jpg" class="card-img-top" alt="Books">
+              <div class="card-body">
+                <h3>Reading</h3>
+                <p class="card-text">I am an avid book reader.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="" id="contact">
+    <div class="colored-section">
+      <div class="contact-me">
+        <h2>Contact Me</h2>
+        <h3>Send me a message!</h3>
+        <a class="btn" href="mailto:woerneresol@gmail.com">CONTACT ME</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="">
+    <div class="darkcolor">
+      <a href="https://www.linkedin.com/in/bryan-woerner/" target="_blank"><i
+          class="fa-brands fa-linkedin sm-icon"></i></a>
+      <a href="https://github.com/bmw1138" target="_blank"><i class="fa-brands fa-github sm-icon"></i></a>
+      <a href="https://www.atlasobscura.com/users/bryanwoerner" target="_blank"><i
+          class="fa-solid fa-book-atlas sm-icon"></i></a>
+      <p class="copyright">© Copyright 2023 Bryan Woerner<br>
+        <a class="copyright" href="credits.html" target="_blank">Credits</a>
+      </p>
+    </div>
+
+  </footer>
+  <script>var name = prompt("What is your name?");
+    alert("Welcome " + name + " to my website!");</script>
+</body>
+
+</html>
