@@ -1,0 +1,113 @@
+/*HTML*/
+header {
+    background-color: #E5B875;
+}
+
+a {
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    margin: 0;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000000;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+
+h2 {
+    margin-left: 8px;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 10%;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 75%;
+    max-height: 75%;
+  }
+
+.body {
+    margin-right: 5%;
+    margin-left: 8px;
+}
+
+/*Recipe*/
+
+.container-recipe {
+    background-color: #FFD89C;
+}
+
+.center {
+    display: block;
+    margin: 5px auto 5px;
+    width: 75%;
+}
+
+.container-fire {
+    background-color: #F1C27B;
+}
+
+/* Blog */
+
+.container-fluid {
+    padding: 2% 20% 3%;
+}
+
+.middle-container {
+    padding-bottom: 50px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.blog {
+    display: block;
+    margin: 5px auto 5px;
+    width: 50%;
+}
+/* Footer */
+
+.darkcolor {
+    background-color: #85A389;
+    color: #000000;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.copyright {
+    font-size: small;
+    color: #000000;
+
+}
+
+.sm-icon {
+    color: #000000;
+    margin: 20px 10px;
+}

@@ -196,6 +196,7 @@ h3 {
   .copyright {
     font-size: small;
     color: white;
+    margin: auto;
   }
 
   .sm-icon {
