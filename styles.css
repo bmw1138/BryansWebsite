@@ -104,6 +104,10 @@ h3 {
 
 /* About Me */
 
+.center {
+  text-align: center;
+}
+
 .middle-container {
     background-color: #ECE8DD;
     padding-bottom: 50px;
